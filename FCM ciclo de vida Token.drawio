@@ -125,6 +125,9 @@
         <mxCell id="Fsut3es_01sV25xn8ULf-44" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Token Setted&lt;/h1&gt;&lt;p&gt;una ves que es seteado el token recién después se setea el listener para las notificaciones&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="270" width="180" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="Fsut3es_01sV25xn8ULf-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="Fsut3es_01sV25xn8ULf-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

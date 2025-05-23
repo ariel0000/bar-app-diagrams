@@ -87,6 +87,9 @@
         <mxCell id="rZn8_mFb56a5YrIKVN9Q-21" value="Muestro Carrito como Pedido" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="24" y="400" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="rZn8_mFb56a5YrIKVN9Q-24" value="En Pedidos el Carrito queda disponible para ser pagado y para ser accedido por el administrador" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="154" y="360" width="146" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

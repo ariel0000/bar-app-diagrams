@@ -130,11 +130,11 @@
             <mxPoint x="306" y="119" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3Ujju1Q3XjgvjEEiof8V-0" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Topics&lt;/h1&gt;&lt;p&gt;Los Topics deberán grabarse apenas se permitan las notificaciones (nuevo Token).&lt;/p&gt;&lt;p&gt;Si un token expiró y se crea uno nuevo es porque se permitieron las notificaciones. Debería el nuevo solo suscribirse a los topics que anteriormente se tenían&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#1D3557;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="110" width="180" height="200" as="geometry" />
+        <mxCell id="3Ujju1Q3XjgvjEEiof8V-0" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Topics&lt;/h1&gt;&lt;p&gt;Los Topics deberán grabarse apenas se permitan las notificaciones (nuevo Token).&lt;/p&gt;&lt;p&gt;Si un token expiró y se crea uno nuevo es posible porque se permiten las notificaciones. Debería el nuevo suscribirse a los topics que anteriormente se asociaban al anterior token&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#1D3557;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="110" width="180" height="200" as="geometry" />
         </mxCell>
         <mxCell id="3Ujju1Q3XjgvjEEiof8V-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Nuevo Token&lt;/h1&gt;&lt;p&gt;Al crear un token me tengo que fijar si hay topics de un viejo token borrado para agregarselos&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#1D3557;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="320" width="180" height="100" as="geometry" />
+          <mxGeometry x="590" y="320" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="3Ujju1Q3XjgvjEEiof8V-5" value="Topics de&lt;div&gt;&amp;nbsp;anterior token?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="48.75" y="550" width="112.5" height="90" as="geometry" />

@@ -34,7 +34,7 @@
           <mxGeometry x="170" y="280" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="En espera de Inicio de Sesión manual" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="490" y="300" width="120" height="40" as="geometry" />
+          <mxGeometry x="480" y="300" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GbD63X1Zr4tNNLofAb3R-0" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;AuthContext&lt;/h1&gt;&lt;p&gt;Diagrama que muestra el proceso de Autenticación de un Usuario sea que ya se haya logeado antes o sea nuevo&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#5C5C5C;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="300" y="80" width="180" height="120" as="geometry" />
@@ -110,7 +110,16 @@
         <mxCell id="YU7LKUnfdHAfNBFqtYVo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YU7LKUnfdHAfNBFqtYVo-0" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YU7LKUnfdHAfNBFqtYVo-0" value="setIsCookie(true)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="4I4ec3T2JoSZe2ev9zXV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YU7LKUnfdHAfNBFqtYVo-0" target="4I4ec3T2JoSZe2ev9zXV-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="330" />
+              <mxPoint x="460" y="360" />
+              <mxPoint x="570" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YU7LKUnfdHAfNBFqtYVo-0" value="handleGuestLogin" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="300" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YU7LKUnfdHAfNBFqtYVo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YU7LKUnfdHAfNBFqtYVo-2" target="YU7LKUnfdHAfNBFqtYVo-5" edge="1">
@@ -155,7 +164,10 @@
           <mxGeometry x="10" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4I4ec3T2JoSZe2ev9zXV-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;IsCookie&lt;/h1&gt;&lt;p&gt;Es un cookie de usuario e invitado para poder acceder a los servicios del API con roles que incluyan el del mismo&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontColor=#5C5C5C;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="400" width="190" height="120" as="geometry" />
+          <mxGeometry x="500" y="470" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4I4ec3T2JoSZe2ev9zXV-3" value="sync Guest Cookie&lt;div&gt;isCookie == true&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="390" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
